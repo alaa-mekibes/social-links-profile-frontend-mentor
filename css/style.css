@@ -1,0 +1,97 @@
+/* Start Fonts */
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/static/Inter-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/static/Inter-Bold.ttf);
+    font-weight: Bold;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/static/Inter-SemiBold.ttf);
+    font-weight: 600;
+}
+/* End Fonts */
+
+/* Start Regular Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+    text-align: center;
+    color: #fff;
+    height: 100vh;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End Regular Settings */
+
+/* Start content */
+.logIn {
+    background-color: #1F1F1F;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px #141414
+}
+@media (max-width: 968px) {
+    .logIn {
+        padding: 20px
+    }
+}
+.logIn .image {
+    width: 80px;
+    margin: 20px auto
+}
+.logIn .image img {
+    max-width: 100%;
+    border-radius: 50%
+}
+.logIn .text h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px auto
+}
+.logIn .text p {
+    color: #C4F82A;
+    font-weight: bold;
+    font-size: 14px
+}
+.logIn .text q {
+    display: block;
+    font-size: 13px;
+    margin: 30px auto 15px
+}
+.logIn ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.logIn ul a {
+    display: block;
+    margin: 7px auto;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #333333;
+    padding: 13px 0;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.3s
+}
+.logIn ul a:hover {
+    background-color: #C4F82A;
+    color: #1F1F1F
+}
+/* End content */
