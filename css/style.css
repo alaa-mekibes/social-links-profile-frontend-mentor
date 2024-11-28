@@ -48,7 +48,7 @@ body {
     }
 }
 .logIn .image {
-    width: 80px;
+    width: 90px;
     margin: 20px auto
 }
 .logIn .image img {
@@ -63,11 +63,11 @@ body {
 .logIn .text p {
     color: #C4F82A;
     font-weight: bold;
-    font-size: 14px
+    font-size: 15px
 }
 .logIn .text q {
     display: block;
-    font-size: 13px;
+    font-size: 14px;
     margin: 30px auto 15px
 }
 .logIn ul {
