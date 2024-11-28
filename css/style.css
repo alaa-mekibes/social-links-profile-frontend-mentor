@@ -44,7 +44,8 @@ body {
 }
 @media (max-width: 968px) {
     .logIn {
-        padding: 20px
+        padding: 20px;
+        margin: 0 20px
     }
 }
 .logIn .image {
