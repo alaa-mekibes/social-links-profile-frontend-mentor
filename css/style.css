@@ -36,48 +36,48 @@ body {
 /* End Regular Settings */
 
 /* Start content */
-.logIn {
+main .logIn {
     background-color: #1F1F1F;
     padding: 20px 40px;
     border-radius: 10px;
     box-shadow: 0px 0px 2px #141414
 }
 @media (max-width: 968px) {
-    .logIn {
+    main .logIn {
         padding: 20px;
         margin: 0 20px
     }
 }
-.logIn .image {
+main .logIn .image {
     width: 90px;
     margin: 20px auto
 }
-.logIn .image img {
+main .logIn .image img {
     max-width: 100%;
     border-radius: 50%
 }
-.logIn .text h1 {
+main .logIn .text h1 {
     font-size: 24px;
     font-weight: 600;
     margin: 10px auto
 }
-.logIn .text p {
+main .logIn .text p {
     color: #C4F82A;
     font-weight: bold;
     font-size: 15px
 }
-.logIn .text q {
+main .logIn .text q {
     display: block;
     font-size: 14px;
     margin: 30px auto 15px
 }
-.logIn ul {
+main .logIn ul {
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center
 }
-.logIn ul a {
+main .logIn ul a {
     display: block;
     margin: 7px auto;
     font-size: 15px;
@@ -91,7 +91,7 @@ body {
     border-radius: 10px;
     transition: 0.3s
 }
-.logIn ul a:hover {
+main .logIn ul a:hover {
     background-color: #C4F82A;
     color: #1F1F1F
 }
