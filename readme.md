@@ -12,4 +12,4 @@
 
 <h3>Demo</h3>
 
-<p>You can view my work by clicking this link: https://alaa-mekibes.github.io/social-links-profile-challenge.</p>
+<p>You can view my work by clicking this link: https://alaa-mekibes.github.io/social-links-profile-frontend-mentor.</p>
