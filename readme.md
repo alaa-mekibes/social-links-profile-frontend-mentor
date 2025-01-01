@@ -38,4 +38,7 @@ place-items: center;
 min-height: 100vh;
 }
 ```
+
+- `min-height: 100vh;` is just to get full-screen (full page). we can use also `height: 100vh` if the content is short.
+
 <p>I recommend focusing on learning either the grid or flexbox method. Mastering one of them will make you feel much more confident and comfortable moving forward.</p>
