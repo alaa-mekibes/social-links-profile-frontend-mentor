@@ -13,3 +13,29 @@
 <h3>Demo</h3>
 
 <p>You can view my work by clicking this link: https://alaa-mekibes.github.io/social-links-profile-frontend-mentor.</p>
+
+<h3>what i learned</h3>
+
+<p>There are two best ways to center elements inside `body` via css :</p>
+
+<h4>Flex Box</h4>
+
+```css
+body {
+display: flex; 
+justifay-content : center; 
+align-items : center; 
+min-height: 100vh;
+}
+```
+
+<h4>Grid</h4>
+
+```css
+body {
+display: grid;
+place-items: center;
+min-height: 100vh;
+}
+```
+<p>I recommend focusing on learning either the grid or flexbox method. Mastering one of them will make you feel much more confident and comfortable moving forward.</p>
