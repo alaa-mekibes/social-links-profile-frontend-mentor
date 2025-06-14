@@ -7,7 +7,7 @@
 @font-face {
     font-family: 'Inter';
     src: url('fonts/static/Inter-Bold.ttf') format("truetype");
-    font-weight: Bold;
+    font-weight: 700;
 }
 @font-face {
     font-family: 'Inter';
@@ -48,6 +48,7 @@ body {
 
 /* Start content */
 .logIn {
+    width: 100%;
     max-width: 25rem;
     background-color: var(--box-bg);
     padding: 1.25rem;
@@ -70,7 +71,7 @@ body {
 }
 .text p {
     color: var(--paragraph-c);
-    font-weight: bold;
+    font-weight: 700;
     font-size: var(--paragraph-s)
 }
 .text q {
@@ -93,14 +94,13 @@ body {
     text-decoration: none;
     color: var(--white);
     text-transform: capitalize;
-    font-weight: bold;
+    font-weight: 700;
     margin: 0.438rem auto;
     background-color: var(--link-bg);
     padding: 0.813rem 0;
     width: 100%;
     border-radius: 10px;
-    transition: 0.3s;
-    width: 100%
+    transition: 0.3s
 }
 .links a:hover {
     background-color: var(--paragraph-c);
