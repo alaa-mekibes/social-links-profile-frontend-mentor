@@ -49,7 +49,7 @@ body {
 /* Start content */
 .logIn {
     width: 100%;
-    max-width: 19rem;
+    max-width: 25rem;
     background-color: var(--box-bg);
     padding: 1.25rem;
     margin: 0 1.25rem;
@@ -87,7 +87,7 @@ body {
 }
 .links li {
     width: 100%
-    margin: 0.438rem auto;
+    margin: 1rem auto;
     background-color: var(--link-bg);
     padding: 0.813rem 0;
     width: 100%;
