@@ -87,12 +87,6 @@ body {
 }
 .links li {
     width: 100%
-    margin: 1rem auto;
-    background-color: var(--link-bg);
-    padding: 0.813rem 0;
-    width: 100%;
-    border-radius: 10px;
-    transition: 0.3s
 }
 .links a {
     display: block;
@@ -101,6 +95,12 @@ body {
     color: var(--white);
     text-transform: capitalize;
     font-weight: bold;
+    margin: 1rem auto;
+    background-color: var(--link-bg);
+    padding: 0.813rem 0;
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
     width: 100%
 }
 .links a:hover {
