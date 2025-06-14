@@ -1,22 +1,33 @@
 /* Start Fonts */
 @font-face {
     font-family: 'Inter';
-    src: url(fonts/static/Inter-Regular.ttf) format("truetype");
+    src: url('fonts/static/Inter-Regular.ttf') format("truetype");
     font-weight: normal;
 }
 @font-face {
     font-family: 'Inter';
-    src: url(fonts/static/Inter-Bold.ttf) format("truetype");
+    src: url('fonts/static/Inter-Bold.ttf') format("truetype");
     font-weight: Bold;
 }
 @font-face {
     font-family: 'Inter';
-    src: url(fonts/static/Inter-SemiBold.ttf) format("truetype");
+    src: url('fonts/static/Inter-SemiBold.ttf') format("truetype");
     font-weight: 600;
 }
 /* End Fonts */
 
 /* Start Regular Settings */
+:root {
+--white: #fff;
+--web-bg: #141414;
+--box-bg: #1F1F1F;
+--box-shadow: #141414;
+--link-bg: #333333;
+--paragraph-c: #C4F82A;
+--heading-s: 1.5rem;
+--paragraph-s: 0.938rem;
+--job-s: 0.875rem;
+}
 * {
     margin: 0;
     padding: 0;
@@ -24,11 +35,11 @@
 }
 
 body {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     text-align: center;
-    color: #fff;
+    color: var(--white);
     height: 100vh;
-    background-color: #141414;
+    background-color: var(--web-bg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,63 +47,63 @@ body {
 /* End Regular Settings */
 
 /* Start content */
-main .logIn {
-    background-color: #1F1F1F;
-    padding: 20px 40px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 2px #141414
+.logIn {
+    width: 100%;
+    max-width: 18rem;
+    background-color: var(--box-bg);
+    padding: 1.25rem;
+    margin: 0 1.25rem;
+    border-radius: 0.625rem;
+    box-shadow: 0px 0px 2px var(--box-shadow)
 }
-@media (max-width: 968px) {
-    main .logIn {
-        padding: 20px;
-        margin: 0 20px
-    }
-}
-main .logIn .image {
+.image {
     width: 90px;
-    margin: 20px auto
+    margin: 1.25rem auto
 }
-main .logIn .image img {
+.image img {
     max-width: 100%;
     border-radius: 50%
 }
-main .logIn .text h1 {
-    font-size: 24px;
+.text h1 {
+    font-size: var(--heading-s);
     font-weight: 600;
-    margin: 10px auto
+    margin: 0.625rem auto
 }
-main .logIn .text p {
-    color: #C4F82A;
+.text p {
+    color: var(--paragraph-c);
     font-weight: bold;
-    font-size: 15px
+    font-size: var(--paragraph-s)
 }
-main .logIn .text q {
+.text q {
     display: block;
-    font-size: 14px;
-    margin: 30px auto 15px
+    font-size: var(--job-s);
+    margin: 1.875rem auto 0.938rem
 }
-main .logIn ul {
+.links {
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center
 }
-main .logIn ul a {
+.links a {
     display: block;
-    margin: 7px auto;
-    font-size: 15px;
+    margin: 0.438rem auto;
+    font-size: var(--paragraph-s);
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
     text-transform: capitalize;
     font-weight: bold;
-    background-color: #333333;
-    padding: 13px 0;
-    width: 300px;
+    background-color: var(--link-bg);
+    padding: 0.813rem 0;
+    width: 100%;
     border-radius: 10px;
     transition: 0.3s
 }
-main .logIn ul a:hover {
-    background-color: #C4F82A;
-    color: #1F1F1F
+.links a:hover {
+    background-color: var(--paragraph-c);
+    color: var(--box-bg)
+}
+@media (min-width: 62rem) {
+    .logIn {padding: 1.25rem 2.5rem}
 }
 /* End content */
