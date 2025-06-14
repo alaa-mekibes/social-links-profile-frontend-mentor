@@ -48,7 +48,6 @@ body {
 
 /* Start content */
 .logIn {
-    width: 100%;
     max-width: 25rem;
     background-color: var(--box-bg);
     padding: 1.25rem;
@@ -95,7 +94,7 @@ body {
     color: var(--white);
     text-transform: capitalize;
     font-weight: bold;
-    margin: 1rem auto;
+    margin: 0.438rem auto;
     background-color: var(--link-bg);
     padding: 0.813rem 0;
     width: 100%;
