@@ -49,7 +49,7 @@ body {
 /* Start content */
 .logIn {
     width: 100%;
-    max-width: 18rem;
+    max-width: 19rem;
     background-color: var(--box-bg);
     padding: 1.25rem;
     margin: 0 1.25rem;
@@ -85,19 +85,23 @@ body {
     flex-direction: column;
     align-items: center
 }
-.links a {
-    display: block;
+.links li {
+    width: 100%
     margin: 0.438rem auto;
-    font-size: var(--paragraph-s);
-    text-decoration: none;
-    color: var(--white);
-    text-transform: capitalize;
-    font-weight: bold;
     background-color: var(--link-bg);
     padding: 0.813rem 0;
     width: 100%;
     border-radius: 10px;
     transition: 0.3s
+}
+.links a {
+    display: block;
+    font-size: var(--paragraph-s);
+    text-decoration: none;
+    color: var(--white);
+    text-transform: capitalize;
+    font-weight: bold;
+    width: 100%
 }
 .links a:hover {
     background-color: var(--paragraph-c);
