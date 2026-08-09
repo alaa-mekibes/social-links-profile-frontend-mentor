@@ -1,44 +1,46 @@
-<h1>Social Media Links Challenge</h1>
+# Social Media Links Challenge
 
-<p>This is my first challenge from <a href="https://www.frontendmentor.io" target="_blank">frontendmentor</a>, the idea of this challenge is 
-  to build out this social links profile and get it looking as close to the design as possible.</p>
-  
-  <br>
+This is my first challenge from [frontendmentor](https://www.frontendmentor.io), the idea of this challenge is to build out this social links profile and get it looking as close to the design as possible.
 
-<h2>Licence Design</h2>
-  
-<p>I did not design this template, I simply transfromed the provided Image file into functional webpage using HTML 
-  & CSS, and this is <a href="https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ" target="_blank">the desgin link</a></p>
 
-<h3>Demo</h3>
 
-<p>You can view my work by clicking this link: https://alaa-mekibes.github.io/social-links-profile-frontend-mentor.</p>
+![screenshot](screenshot.png)
 
-<h3>what i learned</h3>
 
-<p>There are two best ways to center elements inside `body` via css :</p>
 
-<h4>Flex Box</h4>
+## Licence Design
 
-```css
-body {
-display: flex; 
-justify-content : center; 
-align-items : center; 
-min-height: 100vh;
-}
-```
+I did not design this template, I simply transformed the provided image file into a functional webpage using HTML & CSS, and this is [the design link](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ).
 
-<h4>Grid</h4>
+### Demo
+
+You can view my work by clicking this link: https://alaa-mekibes.github.io/social-links-profile-frontend-mentor
+
+### What I learned
+
+There are two best ways to center elements inside `body` via CSS:
+
+#### Flex Box
 
 ```css
 body {
-display: grid;
-place-items: center;
-min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 ```
 
-- `min-height: 100vh;` is just to get full-screen (full page). we can use also `height: 100vh` if the content is short.
+#### Grid
 
-<p>I recommend focusing on learning either the grid or flexbox method. Mastering one of them will make you feel much more confident and comfortable moving forward.</p>
+```css
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+```
+
+- `min-height: 100vh;` is just to get full screen (full page). You can also use `height: 100vh` if the content is short.
+
+I recommend focusing on learning either the grid or flexbox method. Mastering one of them will make you feel much more confident and comfortable moving forward.
